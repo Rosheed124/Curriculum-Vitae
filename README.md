@@ -2,7 +2,6 @@
 
 Welcome to the open-source repository of my interactive, 3D developer portfolio! This project showcases a blend of modern web technologies, pushing the boundaries of what's possible in the browser with 3D graphics, physics-based interactions, and smooth animations.
 
-![Portfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
 
 ## ✨ Features
 
