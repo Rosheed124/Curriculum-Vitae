@@ -1,105 +1,96 @@
 export const config = {
     developer: {
-        name: "Huzaif",
-        fullName: "Huzaif Ahmed",
-        title: "Full Stack Developer",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star."
+        name: "Rosheed",
+        fullName: "Rosheed Fagbenro",
+        title: "Web Designer & Developer",
+        description: "Frontend-focused Web Developer and Law Student at the University of Ibadan, building clean, responsive, user-centered websites while strengthening my foundation in modern web technologies."
     },
     social: {
-        github: "huzaifahmedz",
-        email: "dev.huzaif@gmail.com",
-        location: "India"
+        github: "rosheed124",
+        email: "rosheediyiola2004@gmail.com",
+        location: "Ibadan, Nigeria"
     },
     about: {
         title: "About Me",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star. I specialize in building modern web applications with React, Node.js, and cutting-edge technologies."
+        description: "I am a Web Designer & Developer with a strong foundation in HTML, CSS, Bootstrap, and an active interest in React, Tailwind CSS, and WordPress. I enjoy building responsive, functional, and user-focused digital experiences that solve real problems. Beyond development, I am a Law student at the University of Ibadan, a combination that has strengthened my analytical thinking, discipline, and structured problem-solving approach. I also serve as the Lead Editor of IslamicHistory673 on YouTube, where I create technically polished and historically accurate content following Islamic principles. I am committed to continuous learning, effective communication, and contributing to impactful digital projects."
     },
     experiences: [
         {
-            position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
-            location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
-            responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
-            ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
+            position: "Software Developer",
+            company: "Self-Employed",
+            period: "2023 - Present",
+            location: "Hybrid, Nigeria",
+            description: "Designed and developed responsive websites using HTML, CSS, Bootstrap, and JavaScript. Customized WordPress sites and implemented functional components aligning with client needs. Improved UI/UX of client landing pages with clean layouts and mobile-first design. Integrated contact forms, lightweight animations, and performance optimizations. Collaborated with clients using Git for version tracking and structured revisions."
         },
         {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
+            position: "Lead Editor & Content Designer",
+            company: "IslamicHistory673 (YouTube)",
+            period: "2023 - Present",
             location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
-            responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
-                "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
+            description: "Lead editing, motion graphics, and visual storytelling for Islamic historical content. Enhanced video engagement using AI imagery, sound design, and structured pacing. Maintained high accuracy and alignment with Islamic principles in all content. Created efficient editing workflows improving production speed and consistency."
+        },
+        {
+            position: "Law Student",
+            company: "University of Ibadan",
+            period: "2023 - 2027",
+            location: "Ibadan, Nigeria",
+            description: "Developing strong legal reasoning, research, and analytical skills. Engaged in structured academic writing, case analysis, and statutory interpretation. Balancing academic rigor with professional development in technology."
         }
     ],
     projects: [
         {
             id: 1,
-            title: "AI-Powered Code Review Assistant",
-            category: "Full Stack",
-            technologies: "Python, TensorFlow, React, FastAPI, PostgreSQL, Docker",
-            image: "/images/project-1.webp"
+            title: "IslamicHistory673 Channel Growth System",
+            category: "Content + Workflow",
+            technologies: "Storyboarding, Editing Workflow, Content Structuring",
+            image: "/images/project-1.webp",
         },
         {
             id: 2,
-            title: "Real-time Collaborative Whiteboard",
-            category: "Full Stack",
-            technologies: "TypeScript, WebRTC, Socket.io, Canvas API, Node.js, Redis",
-            image: "/images/project-2.webp"
+            title: "MSSN Akinyele Area Council — Official Website (Collaboration)",
+            category: "Web Project",
+            technologies: "HTML, CSS, JavaScript",
+            image: "/images/project-2.webp",
         },
         {
             id: 3,
-            title: "Blockchain Voting System",
-            category: "Full Stack",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask",
-            image: "/images/project-3.webp"
+            title: "Personal Portfolio Website (v1)",
+            category: "Portfolio",
+            technologies: "HTML, CSS, JavaScript",
+            image: "/images/project-3.webp",
         },
         {
             id: 4,
-            title: "Cloud Infrastructure Dashboard",
-            category: "Full Stack",
-            technologies: "Go, Kubernetes, Grafana, Prometheus, Terraform, React",
-            image: "/images/project-4.webp"
-        },
-        {
-            id: 5,
-            title: "Neural Network Visualizer",
-            category: "Full Stack",
-            technologies: "Python, TensorFlow.js, D3.js, Next.js, WebGL, TypeScript",
-            image: "/images/project-5.webp"
+            title: "Lightweight Blog Template — UI/UX Focused",
+            category: "UI/UX",
+            technologies: "HTML, CSS, Bootstrap",
+            image: "/images/project-4.webp",
         }
     ],
     contact: {
-        email: "dev.huzaif@gmail.com",
-        github: "https://github.com/huzaifahmedz",
-        linkedin: "https://www.linkedin.com",
-        twitter: "https://x.com",
-        instagram: "https://www.instagram.com"
+        email: "rosheediyiola2004@gmail.com",
+        github: "https://github.com/rosheed124",
+        linkedin: "https://www.linkedin.com/in/rosheed1234",
+        twitter: "",
+        instagram: "https://www.instagram.com/islamichistoryinsights",
+        youtube: "https://www.youtube.com/@islamichistory673"
     },
     skills: {
         develop: {
             title: "DEVELOP",
-            description: "Full-stack development with modern web technologies",
-            details: "Building scalable web applications using React, Node.js, and cutting-edge frameworks. Specializing in creating responsive, performant, and accessible user interfaces.",
-            tools: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "Framer Motion", "Three.js"]
+            description: "Frontend-focused development and responsive UI",
+            details: "Building responsive, accessible, and user-focused websites using modern HTML and CSS patterns, Bootstrap, and progressive JavaScript techniques.",
+            tools: ["HTML", "CSS", "JavaScript", "Bootstrap", "React (interest)", "Tailwind (interest)", "WordPress (interest)"]
         },
         design: {
             title: "DESIGN",
-            description: "UI/UX design and modern web interfaces",
-            details: "Creating beautiful and intuitive user experiences with focus on accessibility and user-centered design principles.",
-            tools: ["UI Design", "UX Design", "Figma", "Photoshop", "Motion Design", "Responsive Design", "Accessibility", "Prototyping"]
+            description: "UI/UX and visual design",
+            details: "Designing clean, readable interfaces with attention to typography, spacing, and usability.",
+            tools: ["Figma", "Photoshop", "Responsive Design", "Accessibility"]
+        },
+        soft: {
+            title: "SOFT SKILLS",
+            list: ["Leadership", "Critical Thinking", "Communication", "Problem-Solving", "Attention to Detail"]
         }
     }
 };

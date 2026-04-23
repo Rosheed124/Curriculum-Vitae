@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
@@ -70,11 +70,11 @@ const Navbar = () => {
           Logo
         </a>
         <a
-          href="mailto:example@mail.com"
+          href={`mailto:rosheediyiola2004@gmail.com`}
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          rosheediyiola2004@gmail.com
         </a>
         <ul>
           <li>
